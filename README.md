@@ -26,16 +26,6 @@ I'm a systems-focused software engineer building **compilers**, **low-latency en
 | [Zyphos](https://github.com/Capataina/zyphos) | `Rust`, `TCP`, `Threads`, `Concurrency` | Modular multithreaded HTTP server in Rust built from scratch with async-like threading model |
 | [Nyquestro](https://github.com/Capataina/nyquestro) | `Rust`, `Atomics`, `Lock-Free` | Ultra-low-latency limit-order-book engine with lock-free price levels and correctness-tested matching logic |
 
-<!-- Top languages in Xyntra -->
-![Top Langs for Xyntra](https://github-readme-stats.vercel.app/api/top-langs/?username=Capataina&repo=xyntra&layout=compact&theme=radical)
-
-<!-- Top languages in Zyphos -->
-![Top Langs for Zyphos](https://github-readme-stats.vercel.app/api/top-langs/?username=Capataina&repo=zyphos&layout=compact&theme=radical)
-
-<!-- Top languages in Nyquestro -->
-![Top Langs for Nyquestro](https://github-readme-stats.vercel.app/api/top-langs/?username=Capataina&repo=nyquestro&layout=compact&theme=radical)
-
-
 ---
 
 ## 🧭 Currently Exploring
