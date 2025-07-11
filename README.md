@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Capataina
+# 👋 Hi, I'm Cap
 
 I'm a systems-focused software engineer building **compilers**, **low-latency engines**, and **performance-critical infrastructure** in **Rust**.
 
