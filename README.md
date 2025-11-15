@@ -16,7 +16,7 @@ I'm a systems-focused software engineer building **compilers**, **low-latency en
 | 🔧 Project | 🧠 Tech | 📄 Summary |
 |-----------|--------|-----------|
 | [Xyntra](https://github.com/Capataina/xyntra) | `Rust`, `egg`, `wgpu`, `ONNX` | Kernel-fusion compiler pass for ONNX/TorchScript graphs, emits fused GPU kernels using WGSL/PTX |
-| [Zyphos](https://github.com/Capataina/zyphos) | `Rust`, `TCP`, `Threads`, `Concurrency` | Modular multithreaded HTTP server in Rust built from scratch with async-like threading model |
+| [Zyphos](https://github.com/Capataina/zyphos) | `Rust`, `TCP`, `Threads`, `Concurrency` | Network protocol laboratory implementing HTTP servers from scratch in Rust; learning sockets, concurrency, parsing, and performance engineering through 30 structured milestones from raw TCP to HTTP/2, WebSockets, and QUIC |
 | [Nyquestro](https://github.com/Capataina/nyquestro) | `Rust`, `Atomics`, `Lock-Free` | Ultra-low-latency limit-order-book engine with lock-free price levels and correctness-tested matching logic |
 | [Vynapse](https://github.com/Capataina/vynapse) | `Rust`, `Autodiff`, `NEAT`, `SGD`, `Graph IR` | Hybrid learning engine combining DEAP/NEAT-style evolution with PyTorch/TensorFlow-style autodiff and graph execution in safe Rust |
 | [Debate CLI](https://github.com/Capataina/Multi-LLM-Debate-CLI) | `Python`, `Asyncio`, `AI APIs`, `TOML` | Multi-LLM debate orchestrator with recursive summarization, async provider integration, and research-grade analytics |
