@@ -38,7 +38,7 @@ I'm a **systems-focused software engineer** building **compilers**, **low-latenc
 
 ## 🧭 Currently Exploring
 
-- 🧪 **Compiler optimization research** — Writing technical documentation on kernel fusion design patterns and e-graph rewriting strategies
+- 🧪 **Compiler optimization research** — Writing technical paper on kernel fusion design patterns and e-graph rewriting strategies
 - ⚡ **Lock-free systems** — Benchmarking atomic operations and designing wait-free data structures for trading engines
 - 📊 **Trading infrastructure** — Building deterministic replay systems, pre-trade risk controls, and microsecond-latency order matching
 - 🤖 **Multi-agent AI frameworks** — Orchestrating heterogeneous LLMs to surface emergent consensus and quantify model alignment
