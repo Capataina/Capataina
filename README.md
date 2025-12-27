@@ -1,34 +1,47 @@
 # 👋 Hi, I'm Cap
-I'm a systems-focused software engineer building **compilers**, **low-latency engines**, and **performance-critical infrastructure** in **Rust**.
-- 🎓 Computer Science student graduated in **July 2025**
-- 💻 Looking for **hybrid Rust/C++ systems roles in London**
-- 📌 Strong interest in: **infra, protocol design, AI tooling, trading engines, multi-agent systems**
-- 🔍 Long-term goal: Become a high-performance specialist in **compilers**, **GPU runtimes**, and **low-latency systems**
+
+I'm a **systems-focused software engineer** building **compilers**, **low-latency engines**, and **performance-critical infrastructure** in **Rust** and **C++**.
+
+- 🎓 **Computer Science graduate** from University of York (July 2025)
+- 💼 Seeking **hybrid software engineering roles in London** focused on **systems programming**, **infrastructure**, and **AI/ML engineering**
+- 🎯 Core interests: **Compilers & GPU runtimes**, **trading engines & fintech infrastructure**, **AI tooling & multi-agent systems**, **network protocols & concurrent systems**
+- 🔭 Long-term vision: Become a specialist in **high-performance systems**, **compiler optimization**, and **low-latency infrastructure**
+
 ---
+
 ## 🧠 My Focus Areas
-- 🧵 High-performance compilers and kernel fusion (e.g. ONNX/TorchScript)
-- ⚡ Lock-free engines and real-time matching systems
-- 🧬 AI infra, graph optimizers, and runtime tuning
-- 🌐 Network protocols, concurrency models, and async runtimes
-- 🤖 Multi-agent AI systems and orchestration frameworks
-- 🖼️ Local-first applications with embedded ML and privacy-preserving design
-- 💹 Trading infrastructure and financial systems engineering
+
+- 🧵 **Compilers & GPU optimization** — kernel fusion, graph rewriting, ONNX/TorchScript compilation
+- ⚡ **Lock-free systems & trading engines** — atomic operations, order book matching, market microstructure
+- 🧬 **AI infrastructure** — neuroevolution runtimes, autodiff engines, graph compilation
+- 🌐 **Network protocols & concurrency** — HTTP servers, async runtimes, TCP/UDP socket programming
+- 🤖 **Multi-agent AI systems** — LLM orchestration, debate frameworks, knowledge synthesis
+- 🖼️ **Local-first applications** — embedded ML, privacy-preserving architecture, semantic search
+- 💹 **Trading infrastructure** — market data handlers, pre-trade risk, deterministic replay
+
 ---
-## 🚀 Projects I'm Working On
-| 🔧 Project | 🧠 Tech | 📄 Summary |
-|-----------|--------|-----------|
-| [Tectra](https://github.com/Capataina/Tectra) | `C++20`, `FlatBuffers`, `Lock-Free`, `Shared Memory` | High-performance trading infrastructure with market data feed handler, pre-trade risk engine, kill-switch, and deterministic replay; targeting >1M msgs/sec with microsecond-level latency |
-| [Image Browser](https://github.com/Capataina/PinterestStyleImageBrowser) | `Rust`, `Tauri v2`, `React 19`, `SQLite`, `ONNX`, `CLIP` | Local-first Pinterest-style image manager with semantic search via CLIP embeddings, visual similarity recommendations, and fully offline architecture with complete user privacy |
-| [Xyntra](https://github.com/Capataina/xyntra) | `Rust`, `egg`, `wgpu`, `ONNX` | Kernel-fusion compiler pass for ONNX/TorchScript graphs, emits fused GPU kernels using WGSL/PTX |
-| [Zyphos](https://github.com/Capataina/zyphos) | `Rust`, `TCP`, `Threads`, `Concurrency` | Network protocol laboratory implementing HTTP servers from scratch in Rust; learning sockets, concurrency, parsing, and performance engineering through 30 structured milestones from raw TCP to HTTP/2, WebSockets, and QUIC |
-| [Nyquestro](https://github.com/Capataina/nyquestro) | `Rust`, `Atomics`, `Lock-Free` | Ultra-low-latency limit-order-book engine with lock-free price levels and correctness-tested matching logic |
-| [Vynapse](https://github.com/Capataina/vynapse) | `Rust`, `Autodiff`, `NEAT`, `SGD`, `Graph IR` | Hybrid learning engine combining DEAP/NEAT-style evolution with PyTorch/TensorFlow-style autodiff and graph execution in safe Rust |
-| [Debate CLI](https://github.com/Capataina/Multi-LLM-Debate-CLI) | `Python`, `Asyncio`, `AI APIs`, `TOML` | Multi-LLM debate orchestrator with recursive summarization, async provider integration, and research-grade analytics |
+
+## 🚀 Active Projects
+
+| 🔧 Project | 🧠 Tech Stack | 📄 Summary |
+|-----------|--------------|-----------|
+| [**Tectra**](https://github.com/Capataina/Tectra) | `C++`, `FlatBuffers`, `Prometheus` | Production-style trading infrastructure combining market data feed handler, pre-trade risk engine, strategy execution framework, backtesting engine, and deterministic replay with kill-switch circuit breakers |
+| [**Image Browser**](https://github.com/Capataina/PinterestStyleImageBrowser) | `Rust`, `Tauri`, `React`, `SQLite`, `ONNX Runtime` | Local-first Pinterest-style image manager with semantic search via CLIP embeddings, visual similarity recommendations, and completely offline architecture with full user privacy |
+| [**Vynapse**](https://github.com/Capataina/Vynapse) | `Rust` | Hybrid neuroevolution and deep learning runtime combining NEAT topology mutation, DEAP evolutionary search, PyTorch-style autodiff, and TensorFlow-style graph compilation into unified framework |
+| [**Chrona**](https://github.com/Capataina/Chrona) | `C++` | Git-inspired version control system built from first principles to understand content-addressed storage, immutable snapshots, commit DAGs, staging semantics, and distributed system fundamentals |
+| [**Xyntra**](https://github.com/Capataina/Xyntra) | `Rust` | ML graph fusion compiler pass using e-graph rewriting to identify kernel fusion opportunities and emit optimized WGSL/PTX kernels for ONNX and TorchScript models |
+| [**Nyquestro**](https://github.com/Capataina/Nyquestro) | `Rust` | Lock-free limit order book matching engine exploring ultra-low-latency market microstructure design through atomic operations and safe concurrent data structures |
+| [**Zyphos**](https://github.com/Capataina/Zyphos) | `Rust` | Network protocol laboratory implementing HTTP servers from scratch through 30 structured milestones, progressing from raw TCP sockets to HTTP/2, WebSockets, and QUIC |
+| [**Debate CLI**](https://github.com/Capataina/Multi-LLM-Debate-CLI) | `Python`, `Typer` | Multi-LLM debate orchestrator with recursive summarization, async provider integration, and research-grade analytics for studying AI alignment and consensus formation |
+
 ---
+
 ## 🧭 Currently Exploring
-- 🧪 Writing a research-style whitepaper on **kernel fusion design** (Xyntra)
-- 📈 Benchmarking latency + throughput in **lock-free engines** (Nyquestro)
-- ✍️ Publishing research on the **math behind tensor algebra and kernel fusion** — covering rewrite rules, DAG transformations, and performance implications
-- 🤖 Building a framework for **orchestrating multi-model AI debates** to surface emergent consensus and divergent perspectives
-- 🖼️ Exploring **local-first application architectures** with embedded ML models for privacy-preserving semantic search and content organization
-- 💹 Designing **production-grade trading infrastructure** with deterministic replay, pre-trade risk controls, and sub-microsecond latency requirements
+
+- 🧪 **Compiler optimization research** — Writing technical documentation on kernel fusion design patterns and e-graph rewriting strategies
+- ⚡ **Lock-free systems** — Benchmarking atomic operations and designing wait-free data structures for trading engines
+- 📊 **Trading infrastructure** — Building deterministic replay systems, pre-trade risk controls, and microsecond-latency order matching
+- 🤖 **Multi-agent AI frameworks** — Orchestrating heterogeneous LLMs to surface emergent consensus and quantify model alignment
+- 🖼️ **Local-first ML applications** — Embedding CLIP models for privacy-preserving semantic search without cloud dependencies
+- 🌐 **Network protocol implementation** — Learning TCP state machines, event loops, zero-copy I/O, and kernel bypass techniques
+- 🧬 **Neuroevolution systems** — Combining gradient-based and evolutionary optimization in trait-based Rust architecture
