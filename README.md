@@ -3,8 +3,8 @@
 I'm a **systems-focused software engineer** building **compilers**, **low-latency engines**, and **performance-critical infrastructure** in **Rust** and **C++**.
 
 - 🎓 **Computer Science graduate** from University of York (July 2025)
-- 💼 Seeking **hybrid software engineering roles in London** focused on **systems programming**, **infrastructure**, and **AI/ML engineering**
-- 🎯 Core interests: **Compilers & GPU runtimes**, **trading engines & fintech infrastructure**, **AI tooling & multi-agent systems**, **network protocols & concurrent systems**
+- 💼 Seeking **hybrid software roles in London** focused on **systems programming**, **infrastructure**, and **AI/ML engineering**
+- 🎯 Core interests: **Compilers & GPU runtimes**, **fintech infra**, **AI tooling & multi-agent systems**, **network protocols & concurrent systems**
 - 🔭 Long-term vision: Become a specialist in **high-performance systems**, **compiler optimization**, and **low-latency infrastructure**
 
 ---
