@@ -41,7 +41,7 @@ I'm a **systems-focused software engineer** building **compilers**, **low-latenc
 - 🧪 **Compiler optimization research** — Writing technical paper on kernel fusion design patterns and e-graph rewriting strategies
 - ⚡ **Lock-free systems** — Benchmarking atomic operations and designing wait-free data structures for trading engines
 - 📊 **Trading infrastructure** — Building deterministic replay systems, pre-trade risk controls, and microsecond-latency order matching
-- 🤖 **Multi-agent AI frameworks** — Orchestrating heterogeneous LLMs to surface emergent consensus and quantify model alignment
+- 🤖 **Multi-agent AI frameworks** — Orchestrating LLMs to surface emergent consensus and quantify model alignment
 - 🖼️ **Local-first ML applications** — Embedding CLIP models for privacy-preserving semantic search without cloud dependencies
 - 🌐 **Network protocol implementation** — Learning TCP state machines, event loops, zero-copy I/O, and kernel bypass techniques
 - 🧬 **Neuroevolution systems** — Combining gradient-based and evolutionary optimization in trait-based Rust architecture
