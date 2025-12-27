@@ -4,7 +4,7 @@ I'm a **systems-focused software engineer** building **compilers**, **low-latenc
 
 - 🎓 **Computer Science graduate** from University of York (July 2025)
 - 💼 Seeking **hybrid software roles in London** focused on **systems programming**, **infrastructure**, and **AI/ML engineering**
-- 🎯 Core interests: **Compilers & GPU runtimes**, **fintech infra**, **AI tooling & multi-agent systems**, **network protocols & concurrent systems**
+- 🎯 Core interests: **Compilers & GPU runtimes**, **fintech infra**, **AI tooling & multi-agent systems**, **networks & concurrent systems**
 - 🔭 Long-term vision: Become a specialist in **high-performance systems**, **compiler optimization**, and **low-latency infrastructure**
 
 ---
