@@ -13,7 +13,7 @@ I'm a **systems-focused software engineer** building **compilers**, **low-latenc
 
 - 🧵 **Compilers & GPU optimization** — kernel fusion, graph rewriting, ONNX/TorchScript compilation
 - ⚡ **Lock-free systems & trading engines** — atomic operations, order book matching, market microstructure
-- 🧬 **AI infrastructure & neuroevolution** — evolutionary algorithms, topology mutation, hybrid optimization paradigms, comparative benchmarking
+- 🧬 **AI infrastructure & neuroevolution** — evolutionary algorithms, topology mutation and hybrid optimization paradigms
 - 🌐 **Network protocols & concurrency** — HTTP servers, async runtimes, TCP/UDP socket programming
 - 🤖 **Multi-agent AI systems** — LLM orchestration, debate frameworks, knowledge synthesis
 - 🖼️ **Local-first applications** — embedded ML, privacy-preserving architecture, semantic search
