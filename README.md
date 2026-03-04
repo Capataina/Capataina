@@ -13,7 +13,7 @@ I'm a **systems-focused software engineer** building **AI runtimes**, **low-late
 
 - 🤖 **AI & machine learning** — neuroevolution, evolutionary algorithms, reinforcement learning, gradient-based training, and brain-inspired plasticity across a wide range of paradigms and architectures
 - 🧵 **Compilers & GPU optimisation** — kernel fusion, e-graph rewriting, ONNX/TorchScript compilation, WGSL/PTX kernel generation
-- ⚡ **Lock-free systems & trading engines** — atomic operations, order book matching, wait-free data structures, market microstructure
+- ⚡ **Fintech and Trading Infra** — atomic operations, order book matching, wait-free data structures, market microstructure
 - 🖼️ **Local-first applications** — embedded ML inference, privacy-preserving architecture, semantic search with CLIP
 - 💹 **DeFi & financial infrastructure** — AMM mechanics, cross-DEX arbitrage detection, quantitative risk modelling, on-chain analytics
 - 🌐 **Network protocols & concurrency** — HTTP servers, async runtimes, TCP/UDP socket programming, zero-copy I/O
