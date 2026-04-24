@@ -25,11 +25,22 @@ I'm a **systems-focused software engineer** building **AI runtimes**, **low-late
 
 | 🔧 Project | 🧠 Tech Stack | 📄 Summary |
 |-----------|--------------|-----------|
-| [**Cernio**](https://github.com/Capataina/Cernio) | `Rust`, `Ratatui`, `SQLite`, `Tokio` | Local-first job discovery and curation engine integrating ATS providers, a Ratatui TUI, collaborative Claude Code skills, and a SQLite-backed pipeline for scanning, grading, and evaluating opportunities through human-AI conversational sessions |
-| [**Image Browser**](https://github.com/Capataina/PinterestStyleImageBrowser) | `Rust`, `Tauri`, `React`, `SQLite`, `ONNX Runtime` | Local-first Pinterest-style image manager with semantic search via CLIP embeddings, visual similarity recommendations, and completely offline architecture with full user privacy |
-| [**Aurix**](https://github.com/Capataina/Aurix) | `Rust`, `Tauri`, `React`, `SQLite` | Local-first DeFi analytics platform covering real-time cross-DEX arbitrage detection, Uniswap V3 LP backtesting with tick mathematics, on-chain wallet tracking, gas pattern analysis, and quantitative risk modelling — entirely on-device via free public RPC endpoints |
-| [**NeuroDrive**](https://github.com/Capataina/NeuroDrive) | `Rust`, `Bevy` | Brain-inspired continual learning system implementing Hebbian plasticity, STDP eligibility traces, and dopamine-modulated weight updates from first principles in a custom 2D racing environment — no backpropagation, no ML frameworks |
-| [**Nyquestro**](https://github.com/Capataina/Nyquestro) | `Rust` | Lock-free order matching engine in safe Rust covering price-time priority matching, a binary wire protocol, real-time risk controls, and a market-making strategy agent with inventory and adverse selection management |
+| [**Cernio**](https://github.com/Capataina/Cernio) | `Rust`, `Ratatui`, `SQLite`, `Tokio` | Local-first, human-AI collaborative job discovery and curation engine — a TUI-driven workflow combining mechanical ATS scanning with conversational Claude-assisted evaluation, where scripts handle volume and AI handles judgment |
+| [**Image Browser**](https://github.com/Capataina/PinterestStyleImageBrowser) | `Rust`, `Tauri`, `React`, `SQLite`, `ONNX Runtime` | Local-first Pinterest-style image manager built around CLIP semantic search and visual similarity recommendations — fully offline, privacy-preserving by design |
+| [**Aurix**](https://github.com/Capataina/Aurix) | `Rust`, `Tauri`, `React`, `SQLite` | Local-first DeFi analytics platform for on-device cross-DEX arbitrage detection, Uniswap V3 LP backtesting, wallet tracking, and quantitative risk modelling — running entirely on free public RPC endpoints |
+| [**NeuroDrive**](https://github.com/Capataina/NeuroDrive) | `Rust`, `Bevy` | Brain-inspired continual learning system built from neuroscience primitives — Hebbian plasticity, STDP eligibility traces, and dopamine-modulated weight updates in a custom 2D racing environment, deliberately without backpropagation or ML frameworks |
+| [**Nyquestro**](https://github.com/Capataina/Nyquestro) | `Rust` | Lock-free limit order book matching engine in safe Rust exploring ultra-low-latency market microstructure design and wait-free concurrent data structures |
+
+---
+
+## 🔒 Private Projects
+
+Kept private because they're deeply personal or contain sensitive operational data. Open to talking about them in detail.
+
+| 🔧 Project | 🧠 Tech Stack | 📄 Summary |
+|-----------|--------------|-----------|
+| **LifeOS** | `Obsidian`, `Claude Code`, `Python` | Personal operating system built as an Obsidian vault operated by a custom Claude Code personality and skill ecosystem — a second brain that continuously synthesises across life domains rather than acting as passive note storage, with cross-repo profile distribution feeding downstream career tools |
+| **.claude** | `Claude Code`, `Python`, `Markdown` | Private Claude Code configuration repository — a versioned global personality plus custom skill ecosystem shipping as a meta-tooling layer across every project, covering skill authorship, repository extraction, vault maintenance, and code auditing |
 
 ---
 
@@ -37,12 +48,12 @@ I'm a **systems-focused software engineer** building **AI runtimes**, **low-late
 
 | 🔧 Project | 🧠 Tech Stack | 📄 Summary |
 |-----------|--------------|-----------|
-| [**Vynapse**](https://github.com/Capataina/Vynapse) | `Rust` | Hybrid neuroevolution and deep learning runtime combining NEAT topology mutation, DEAP evolutionary search, PyTorch-style autodiff, and TensorFlow-style graph compilation into a unified framework |
-| [**AsteroidsAI**](https://github.com/Capataina/Asteroids-AI) | `Python`, `Arcade`, `NEAT`, `DEAP`, `PyTorch`, `TensorFlow` | Real-time AI benchmarking platform comparing neuroevolution, genetic algorithms, evolution strategies, and graph-based RL on continuous-control tasks with emergent behaviour analysis |
-| [**Consilium**](https://github.com/Capataina/Consilium) | `Python`, `LangChain` | Provider-agnostic multi-LLM debate platform that orchestrates structured multi-round discussions between Claude, GPT, and Gemini, compresses dialogue through rolling summarisation, tracks convergence across rounds, and gives all agents shared tool access via a unified MCP interface |
-| [**Chrona**](https://github.com/Capataina/Chrona) | `C++` | Git-inspired version control system built from first principles covering content-addressed storage, immutable snapshots, commit DAGs, and staging semantics |
+| [**Vynapse**](https://github.com/Capataina/Vynapse) | `Rust` | Hybrid neuroevolution and deep learning runtime unifying NEAT topology mutation, DEAP population search, PyTorch-style autodiff, and TensorFlow-style graph compilation in a single framework |
+| [**AsteroidsAI**](https://github.com/Capataina/Asteroids-AI) | `Python`, `Arcade`, `NEAT`, `DEAP`, `PyTorch`, `TensorFlow` | Real-time AI benchmarking platform comparing neuroevolution, genetic algorithms, evolution strategies, and graph-based RL on continuous-control tasks |
+| [**Consilium**](https://github.com/Capataina/Consilium) | `Python`, `LangChain` | Provider-agnostic multi-LLM debate platform orchestrating structured multi-round discussions between heterogeneous language models — rolling summarisation, convergence tracking, and shared tool access via a unified MCP interface |
+| [**Chrona**](https://github.com/Capataina/Chrona) | `C++` | Git-inspired version control system built from first principles — content-addressed storage, immutable snapshots, commit DAGs, and staging semantics |
 | [**Xyntra**](https://github.com/Capataina/Xyntra) | `Rust` | ML graph fusion compiler pass using e-graph rewriting to identify kernel fusion opportunities and emit optimised WGSL/PTX kernels for ONNX and TorchScript models |
-| [**Zyphos**](https://github.com/Capataina/Zyphos) | `Rust` | Network protocol laboratory implementing HTTP servers from scratch through structured milestones, progressing from raw TCP sockets to HTTP/2, WebSockets, and QUIC |
+| [**Zyphos**](https://github.com/Capataina/Zyphos) | `Rust` | Network protocol laboratory implementing HTTP servers from scratch, progressing from raw TCP sockets through HTTP/2, WebSockets, and QUIC |
 | [**Tectra**](https://github.com/Capataina/Tectra) | `C++`, `FlatBuffers`, `Prometheus` | Production-style trading infrastructure combining market data feed handler, pre-trade risk engine, strategy execution framework, backtesting engine, and deterministic replay |
 
 ---
