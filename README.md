@@ -2,7 +2,7 @@
 
 I'm a **systems-focused software engineer** building **AI runtimes**, **low-latency engines**, and **performance-critical infrastructure** in **Rust** and **C++**. Currently shipping a local-first DeFi analytics platform on Tauri (**Aurix**), a brain-inspired continual-learning substrate without backprop (**NeuroDrive**), a lock-free limit-order-book matching engine in safe Rust (**Nyquestro**), and a 14-skill agentic-tooling ecosystem layered over Claude Code that orchestrates everything from job discovery to vault upkeep to repository extraction.
 
-- 🎓 **Computer Science graduate** from the University of York (July 2025), focused on Rust systems, deep learning, evolutionary computation, and a multithreaded Unity ECS final-year project
+- 🎓 **Computer Science graduate** from the University of York (July 2025), focused on Rust systems, deep learning, and evolutionary computation; final-year project was **Neuronika**, an AI-powered personal knowledge management tool
 - 💼 **Seeking hybrid software roles in London** across systems engineering, AI infrastructure, low-latency trading, or local-first product engineering, with full UK right to work through August 2027 on a Graduate Visa
 - 🎯 **Core interests:** local-first systems, DeFi infrastructure, brain-inspired AI, and trading-systems microstructure — areas where correctness, performance, and architecture trade off in genuinely interesting ways
 - 🔭 **Long-term direction:** high-performance systems engineering, AI-infrastructure work, and AI in healthcare — building tools that respect physics, latency budgets, and individual data instead of population averages
@@ -49,8 +49,8 @@ Kept private because they're deeply personal or contain sensitive operational da
 
 | 🔧 Project | 🧠 Tech Stack | 📄 Summary |
 |-----------|--------------|-----------|
-| **LifeOS** | `Obsidian`, `Claude Code`, `Python` | Personal operating system built as a 600-file Obsidian vault operated by a custom Claude Code personality and 6-skill ecosystem — a second brain that continuously synthesises across project, health, housing, and profile domains rather than acting as passive note storage, feeding downstream career tools through cross-repo profile distribution and a daily Morning Brew automation |
-| **.claude** | `Claude Code`, `Python`, `Markdown` | Versioned global Claude Code configuration repository hosting a custom personality plus an 8-skill global ecosystem covering skill authorship, repository extraction, vault maintenance, code auditing, project research, project enhancement, learning curation, and orient / wrap-up session bookends — meta-tooling that treats Claude as a substrate, not a chat interface |
+| **LifeOS** | `Obsidian`, `Claude Code`, `Python` | Personal operating system built as an 800+ file Obsidian vault operated by a custom Claude Code personality and 6-skill ecosystem — a second brain that continuously synthesises across project, health, housing, and profile domains rather than acting as passive note storage, feeding downstream career tools through cross-repo profile distribution and a daily Morning Brew automation |
+| **.claude** | `Claude Code`, `Python`, `Markdown` | Versioned global Claude Code configuration repository hosting a custom personality plus an 8-skill global ecosystem covering skill authorship, project context maintenance, code auditing, project research, project enhancement, learning curation, and orient / wrap-up session bookends — meta-tooling that treats Claude as a substrate, not a chat interface |
 
 ---
 
@@ -70,8 +70,8 @@ Kept private because they're deeply personal or contain sensitive operational da
 
 ## 🚢 Currently Shipping
 
-- 🧬 **Brain-inspired learning substrate (NeuroDrive)** — shipping a M6 substrate with Hebbian, STDP, and dopamine-modulated learning rules validated against a from-scratch A2C baseline
+- 🧬 **Brain-inspired learning substrate (NeuroDrive)** — shipped the M6 substrate with Hebbian, STDP, and dopamine-modulated learning rules validated against a from-scratch A2C baseline
 - 💹 **Vector A V3 LP backtester (Aurix)** — shipped end-to-end backtester with Q64.96 fixed-point math, multi-asset benchmarking, and regime-conditional capital allocation
 - ⚡ **Order matching engine (Nyquestro)** — shipped Phase A through D with multi-instrument routing, a Ratatui observability dashboard, and live Coinbase market-data integration for BTC, ETH, and SOL
-- 🖼️ **Multi-encoder semantic search (Image Browser)** — shipping 3-encoder Reciprocal Rank Fusion combining CLIP, DINOv2, and SigLIP-2 over typed IPC with WAL-mode SQLite indexing
+- 🖼️ **Multi-encoder semantic search (Image Browser)** — shipped 3-encoder Reciprocal Rank Fusion combining CLIP, DINOv2, and SigLIP-2 over typed IPC with WAL-mode SQLite indexing
 - 🛠️ **Agentic tooling ecosystem (Cernio + LifeOS + .claude)** — shipping 14 specialist Claude Code skills layered across job discovery, vault upkeep, project extraction, code auditing, and daily Morning Brew synthesis
