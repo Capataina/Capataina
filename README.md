@@ -1,18 +1,5 @@
 # 👋 Hi, I'm Cap
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/-Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" alt="Tauri" />
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/-ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX" />
-  <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/-Bevy-232326?style=flat-square&logo=bevy&logoColor=white" alt="Bevy" />
-</p>
-
 I'm a **systems-focused software engineer** building **AI runtimes**, **low-latency engines**, and **performance-critical infrastructure** in **Rust** and **C++**. Currently shipping a local-first DeFi analytics platform on Tauri (**Aurix**), a brain-inspired continual-learning substrate without backprop (**NeuroDrive**), a lock-free limit-order-book matching engine in safe Rust (**Nyquestro**), and a 14-skill agentic-tooling ecosystem layered over Claude Code that orchestrates everything from job discovery to vault upkeep to repository extraction.
 
 - 🎓 **Computer Science graduate** from the University of York (July 2025), focused on Rust systems, deep learning, evolutionary computation, and a multithreaded Unity ECS final-year project
@@ -88,16 +75,3 @@ Kept private because they're deeply personal or contain sensitive operational da
 - ⚡ **Order matching engine (Nyquestro)** — shipped Phase A through D with multi-instrument routing, a Ratatui observability dashboard, and live Coinbase market-data integration for BTC, ETH, and SOL
 - 🖼️ **Multi-encoder semantic search (Image Browser)** — shipping 3-encoder Reciprocal Rank Fusion combining CLIP, DINOv2, and SigLIP-2 over typed IPC with WAL-mode SQLite indexing
 - 🛠️ **Agentic tooling ecosystem (Cernio + LifeOS + .claude)** — shipping 14 specialist Claude Code skills layered across job discovery, vault upkeep, project extraction, code auditing, and daily Morning Brew synthesis
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Capataina&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Capataina&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
-  <img src="https://streak-stats.demolab.com/?user=Capataina&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
