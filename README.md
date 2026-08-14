@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Cap
 
-I write local-first software, mostly in **Rust** and **Swift**, and **C++** when the problem wants it. The through-line is the same whether it is a Mac app or a matching engine: keep the data on the machine, make the hot path honest, and ship something you can actually open.
+I write local-first software, mostly in **Rust** and **Swift**, and **C++** when needed. The through-line is the same whether it is a Mac app or a matching engine: keep the data on the machine, make the hot path honest, and ship something you can actually open.
 
 Right now that is a retrieval engine (**Mnemosyne**), an on-device time tracker (**Vespora**), a graph view for Linear (**Nonlinear**), and a public profiler for modded Terraria.
 
