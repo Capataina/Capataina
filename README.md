@@ -1,23 +1,25 @@
 # 👋 Hi, I'm Cap
 
-I'm a **systems-focused software engineer** building **AI runtimes**, **low-latency engines**, and **performance-critical infrastructure** in **Rust** and **C++**. Right now that means a media-agnostic retrieval engine (**Mnemosyne**), an on-device macOS time tracker (**Vespora**), a graph view for Linear (**Nonlinear**), and a public per-mod profiler for tModLoader.
+I write local-first software, mostly in **Rust** and **Swift**, and **C++** when the problem wants it. The through-line is the same whether it is a Mac app or a matching engine: keep the data on the machine, make the hot path honest, and ship something you can actually open.
 
-- 🎓 **Computer Science graduate** from the University of York (July 2025), focused on Rust systems, deep learning, and evolutionary computation; final-year dissertation on personal knowledge management and information retrieval systems, with **Neuronika** (an AI-powered PKM application) built as the practical project addressing the literature gaps it identified
-- 💼 **Seeking hybrid software roles in London** across systems engineering, AI infrastructure, low-latency trading, or local-first product engineering, with full UK right to work through August 2027 on a Graduate Visa
-- 🎯 **Core interests:** local-first systems, DeFi infrastructure, brain-inspired AI, and trading-systems microstructure: areas where correctness, performance, and architecture trade off in genuinely interesting ways
-- 🔭 **Long-term direction:** high-performance systems engineering, AI-infrastructure work, and AI in healthcare, building tools that respect physics, latency budgets, and individual data instead of population averages
+Right now that is a retrieval engine (**Mnemosyne**), an on-device time tracker (**Vespora**), a graph view for Linear (**Nonlinear**), and a public profiler for modded Terraria.
+
+- 🎓 **York CS, July 2025.** Rust, deep learning, evolutionary computation. The dissertation was **Neuronika**, a personal knowledge app built to close gaps I found in the IR literature.
+- 💼 **Looking for hybrid software roles in London** in systems, AI infrastructure, low-latency trading, or local-first product work. Full UK right to work through August 2027 on a Graduate visa.
+- 🎯 **What I like working on:** local-first systems, DeFi internals, brain-inspired learning, trading microstructure. Places where correctness and speed actually fight.
+- 🔭 **Longer term:** high-performance systems, AI infrastructure, and AI in healthcare. Tools that respect physics, latency budgets, and one person's data rather than a population average.
 
 ---
 
-## 🧠 My Focus Areas
+## 🧠 What I work on
 
-- 🤖 **AI & machine learning:** neuroevolution, from-scratch reinforcement learning, and brain-inspired plasticity rules explored deliberately without backpropagation or ML frameworks
-- 🧵 **Compilers & GPU:** kernel fusion via e-graph rewriting, WGSL and PTX codegen, and ONNX / TorchScript model lowering toward a fused-kernel inference path
-- ⚡ **Trading & fintech:** order-book matching with price-time priority, lock-free and wait-free concurrent data structures, and binary UDP wire protocols for low-latency market access
-- 🖼️ **Local-first applications:** embedded ML inference via ONNX Runtime (CLIP, DINOv2, SigLIP-2) and Tauri 2 desktop architecture with typed IPC envelopes
-- 💹 **DeFi infrastructure:** Uniswap V3 AMM mechanics with Q64.96 fixed-point math, cross-DEX arbitrage via hand-crafted JSON-RPC and ABI encoding, and on-chain analytics over free public RPC endpoints
-- 🌐 **Network & concurrency:** HTTP servers from raw TCP sockets up through HTTP/2, WebSockets, and QUIC on a hand-rolled event loop with zero-copy I/O patterns
-- 🛠️ **Systems tooling:** Ratatui TUIs with vim-style navigation, local-first CLIs that integrate AI agents as first-class components, and an agent-orchestration skill ecosystem layered over Claude Code
+- 🖼️ **Local-first apps:** on-device ML via ONNX Runtime (CLIP, DINOv2, SigLIP-2), Tauri 2 and native Swift / SwiftUI, typed IPC. Everything stays on the Mac.
+- 🛠️ **Systems tooling:** Ratatui TUIs, local-first CLIs, and the agent-orchestration layer I actually run my work through.
+- 🤖 **AI and learning:** neuroevolution, from-scratch reinforcement learning, and brain-inspired plasticity without backpropagation or an ML framework.
+- ⚡ **Trading and fintech:** price-time priority books, lock-free structures, binary UDP for market access.
+- 💹 **DeFi:** Uniswap V3 tick maths, Q64.96 fixed-point, cross-DEX arb on free public RPC. No paid APIs.
+- 🧵 **Compilers and GPU:** kernel fusion via e-graph rewriting, WGSL and PTX codegen, ONNX / TorchScript lowering toward a fused inference path.
+- 🌐 **Network:** HTTP from raw sockets through HTTP/2, WebSockets, and QUIC on a hand-rolled event loop.
 
 ---
 
@@ -28,7 +30,6 @@ I'm a **systems-focused software engineer** building **AI runtimes**, **low-late
 | **TypeNotch** _(private)_ | `Swift`, `SwiftUI`, `macOS` | Adaptive touch-typing trainer that lives in the MacBook notch: hover in, type a served line, hover off. A ten-signal weakness profile (pairs, trios, lengths, words, finger zones × speed/error) drives the next word, so the thing trains rather than measures. v1.0.0 delivered to App Store Connect. |
 | [**Lynceus**](https://github.com/Capataina/Mnemosyne) | `Rust`, `Tauri`, `React`, `SQLite`, `ONNX Runtime` | Local-first image browser for large collections: Pinterest-style masonry, manual tagging with a folders-as-tags model, per-image notes, and both text-label and natural-language semantic search over a 3-encoder ensemble (CLIP, DINOv2, SigLIP-2) fused via Reciprocal Rank Fusion, running fully offline through ONNX Runtime with WAL-mode SQLite indexing. The first product on the **Mnemosyne** engine in the same repo. |
 | [**capataina.dev**](https://capataina.dev) | `Astro`, `TypeScript` | The umbrella marketing site: one domain that gives every project its own landing page, demo, and sales surface. Inverts the old interactive-CV site. Each project gets a real platform instead of a pane of text under a diagram. |
-| **VibeNotch** _(private)_ | `Swift`, `SwiftUI`, `macOS` | A single-purpose agent situation-room living in the macOS notch, purpose-built for Claude Code Agent Teams in Ghostty: it watches teammates spawn, subagents fan out, inter-agent messages fly, and cross-family council dispatches go out to Codex and Gemini, then animates the live agent topology and the conversation between agents in real time. Deliberately narrow: not a general notch monitor, just the one thing off-the-shelf apps don't do. Shipped to `/Applications` as a personal tool. |
 | [**Cernio**](https://github.com/Capataina/Cernio) | `Rust`, `Ratatui`, `SQLite`, `Tokio` | Local-first job discovery and curation engine: a TUI-driven pipeline combining mechanical ATS scanning across hundreds of companies with conversational evaluation against a structured candidate profile, where scripts handle volume and judgement stays human. Pipeline complete at v1.8.1 (730 companies, 1,459 graded roles). |
 
 ---
