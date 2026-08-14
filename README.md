@@ -41,6 +41,7 @@ Right now that is a retrieval engine (**Mnemosyne**), an on-device time tracker 
 | [**Mnemosyne**](https://github.com/Capataina/Mnemosyne) | `Rust`, `ONNX Runtime`, `SQLite` | Media-agnostic retrieval engine under Lynceus: asset catalogue, embedding storage, and cosine / Reciprocal Rank Fusion search, designed to be reused by future audio and 3D browsers. Only the encoders, thumbnailer, indexing pipeline, and Tauri surface are image-specific. Same repo as Lynceus; this row is the engine, that row is the shipped app. |
 | **Vespora** _(private)_ | `Swift`, `SwiftUI`, `GRDB` | Native macOS menu-bar time tracker that captures the screen, OCRs it, narrates the day with on-device Apple Intelligence, attributes blocks to projects, and exports invoices. Sandboxed for the Mac App Store: the moat is that every competitor needs Accessibility APIs the sandbox forbids. |
 | **Nonlinear** _(private)_ | `TypeScript`, `React` | The graph view Linear does not ship: a read-only, horizontal tech-tree of a workspace on an endless canvas. Issues branch and converge on milestones; structure places every connected card, and dates place only the unconnected ones. Demo workspace is the public front door; Sign in with Linear is the next rung. |
+| **AgentFulfyl** _(private)_ | `Astro`, `TypeScript` | A storefront where the customers are AI agents, not humans: agents discover the shop, buy a productised service, and it is fulfilled automatically, returning a result that is both human-readable and machine-parseable. A bet on B2A (business-to-agent) commerce as agents begin doing real purchasing on their principals' behalf. Discovery floor is live; payments and fulfilment are unwired on purpose. |
 | [**Performance Profiler**](https://github.com/Capataina/TerrariaPerformanceProfilerMod) | `C#`, `.NET 8`, `tModLoader`, `MonoMod` | Always-on per-mod CPU profiler and play-session tracker for modded Terraria, aimed at the Steam Workshop and not published there yet: read-only MonoMod IL-detour instrumentation attributing every per-tick cost to the mod and subsystem that produced it, a btop-style foldable cost tree with green-to-red graded bars, real-time biome and boss-fight tracking, and a screenshot-shareable end-of-session retrospective surfacing dormant cost (frame time paid for mods with zero observed engagement). |
 
 ---
@@ -52,17 +53,6 @@ Right now that is a retrieval engine (**Mnemosyne**), an on-device time tracker 
 | [**tracel-ai/burn**](https://github.com/tracel-ai/burn) ([PR #4894](https://github.com/tracel-ai/burn/pull/4894)) | A-FINE no-reference image-quality metric: 1,864-line implementation across 10 files, including an inlined CLIP ViT backbone with PyTorch-weight loader, 5 evaluator heads (technical, structural, aesthetic, authenticity, overall), end-to-end regression tests against the reference implementation, and a `forward_with_features` refactor preserving CLS-token output as a reusable feature-extraction surface for downstream metrics |
 | [**tinygrad/tinygrad**](https://github.com/tinygrad/tinygrad) ([PR #16119](https://github.com/tinygrad/tinygrad/pull/16119)) | ONNX LSTM operator (forward direction, default activations) at +21 tokenised lines, with explicit `NotImplementedError` raises for unsupported inputs and two LSTM tests enabled in the ONNX suite. Re-attempt of [PR #15453](https://github.com/tinygrad/tinygrad/pull/15453) (closed on tinygrad's line-budget policy) at the narrower scope the maintainer's review surfaced. |
 | **Game mods:** RimWorld, Minecraft, Terraria, Escape from Tarkov | 150,000+ aggregate downloads across published mods spanning gameplay rebalancing, content additions, and quality-of-life patches across four modding ecosystems |
-
----
-
-## 🔒 Private Projects
-
-Kept private because they're deeply personal or contain sensitive operational data. Open to talking about them in detail.
-
-| 🔧 Project | 🧠 Tech Stack | 📄 Summary |
-|-----------|--------------|-----------|
-| **LifeOS** | `Obsidian`, `Python` | Personal operating system built as an Obsidian vault operated by agents: a second brain that continuously synthesises across career, health, housing, and profile domains rather than acting as passive note storage, and that feeds downstream career tools from one structured profile. |
-| **AgentFulfyl** | `Astro`, `TypeScript` | A storefront where the customers are AI agents, not humans: agents discover the shop, buy a productised service, and it is fulfilled automatically, returning a result that is both human-readable and machine-parseable. A bet on B2A (business-to-agent) commerce as agents begin doing real purchasing on their principals' behalf. Discovery floor is live; payments and fulfilment are unwired on purpose. |
 
 ---
 
