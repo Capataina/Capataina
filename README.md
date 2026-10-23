@@ -1,16 +1,15 @@
 # 👋 Hi, I'm Cap
 
-I build AI systems, game AI and fast software, mostly in Rust and C#.
-I like problems where the obvious answer is slow or wrong, and measuring my way to a better one.
+Software engineer building AI/ML systems, game AI and performance tooling in Rust, C#, Swift and Luau.
 
 ---
 
 ## 🧠 What I work on
 
-- 🤖 **AI and ML systems:** training and inference performance, GPU kernels, and learning algorithms built from first principles.
-- 🎮 **Game AI:** agents that plan, prioritise and fight inside live simulations.
-- ⚡ **Performance and tooling:** profilers, instrumentation, and finding where the time actually goes.
-- 🖥️ **Products:** desktop apps and games that real people install.
+- 🤖 **AI and ML systems:** training and inference performance, GPU kernel fusion, and learning algorithms implemented from scratch.
+- 🎮 **Game AI:** planning, combat and work-scheduling agents for simulation games.
+- ⚡ **Performance and profiling:** runtime instrumentation, IL injection and per-component cost attribution.
+- 🖥️ **Products:** macOS and desktop apps, browser extensions and Roblox games.
 
 ---
 
@@ -24,6 +23,11 @@ I like problems where the obvious answer is slow or wrong, and measuring my way 
 | | **They Are Handling It** | Raider AI that remembers where its raids died and attacks from somewhere else next time | `C#`, `Harmony` |
 | **Terraria** | [**Performance Profiler**](https://github.com/Capataina/TerrariaPerformanceProfilerMod) | Always-on per-mod CPU and memory profiler, injecting timing IL into every mod override and attributing cost by mod and subsystem | `C#`, `MonoMod` |
 | | [**AICompanion**](https://github.com/Capataina/AICompanion) | An AI companion that plays with you: follows you, fights beside you, does what you are doing, takes orders and grows through its own upgrade tree | `C#`, `tModLoader` |
+
+## 🌱 Open Source
+
+- [**tracel-ai/burn**](https://github.com/tracel-ai/burn): added the A-FINE image-quality metric ([PR #4894](https://github.com/tracel-ai/burn/pull/4894)).
+- [**tinygrad/tinygrad**](https://github.com/tinygrad/tinygrad): the ONNX LSTM operator, under review ([PR #16119](https://github.com/tinygrad/tinygrad/pull/16119)).
 
 ## 🖥️ Apps
 
@@ -41,13 +45,6 @@ I like problems where the obvious answer is slow or wrong, and measuring my way 
 | **Simulator** | **Cavern Crew** | Co-op mining game where every server digs one shared procedural voxel mine, through four cave zones and a deep upgrade tree | `Luau`, `Rojo` |
 | **Tycoon** | **Cafe Cuties** | Cafe management on a shared street: decorate your cafe, then serve customers through small skill minigames that decide the tip | `Luau`, `Rojo` |
 | **Roguelike** | **Nova Holdout** | Base defence on an alien planet: scavenge by day, carry the loot home, and survive the night's attack | `Luau`, `Rojo` |
-
----
-
-## 🌱 Open Source
-
-- [**tracel-ai/burn**](https://github.com/tracel-ai/burn): added the A-FINE image-quality metric ([PR #4894](https://github.com/tracel-ai/burn/pull/4894)).
-- [**tinygrad/tinygrad**](https://github.com/tinygrad/tinygrad): the ONNX LSTM operator, under review ([PR #16119](https://github.com/tinygrad/tinygrad/pull/16119)).
 
 ---
 
