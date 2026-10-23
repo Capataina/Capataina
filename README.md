@@ -43,7 +43,7 @@ Software engineer building AI/ML systems, game AI and performance tooling in Rus
 | | 🔧 Game | 📄 What it is | 🧠 Stack |
 |---|---|---|---|
 | **Simulator** | **Cavern Crew** | Co-op mining game where every server digs one shared procedural voxel mine, through four cave zones and a deep upgrade tree | `Luau`, `Rojo` |
-| **Tycoon** | **Cafe Cuties** | Cafe management on a shared street: decorate your cafe, then serve customers through small skill minigames that decide the tip | `Luau`, `Rojo` |
+| **Tycoon** | [**Cafe Cuties**](https://www.roblox.com/games/112211439306630) | Cafe management on a shared street: decorate your cafe, then serve customers through small skill minigames that decide the tip | `Luau`, `Rojo` |
 | **Roguelike** | **Nova Holdout** | Base defence on an alien planet: scavenge by day, carry the loot home, and survive the night's attack | `Luau`, `Rojo` |
 
 ---
