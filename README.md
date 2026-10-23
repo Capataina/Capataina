@@ -30,7 +30,7 @@ I like problems where the obvious answer is slow or wrong, and measuring my way 
 ## 🌱 Open Source
 
 - [**tracel-ai/burn**](https://github.com/tracel-ai/burn): added the A-FINE image-quality metric ([PR #4894](https://github.com/tracel-ai/burn/pull/4894)).
-- [**tinygrad/tinygrad**](https://github.com/tinygrad/tinygrad): added the ONNX LSTM operator ([PR #16119](https://github.com/tinygrad/tinygrad/pull/16119)).
+- [**tinygrad/tinygrad**](https://github.com/tinygrad/tinygrad): the ONNX LSTM operator, under review ([PR #16119](https://github.com/tinygrad/tinygrad/pull/16119)).
 
 ---
 
